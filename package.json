@@ -39,6 +39,7 @@
     "jshint": "^2.6.3",
     "load-grunt-tasks": "^3.1.0",
     "mocha": "^2.2.1",
-    "should": "^5.2.0"
+    "should": "^5.2.0",
+    "supertest": "^0.15.0"
   }
 }

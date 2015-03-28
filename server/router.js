@@ -9,7 +9,7 @@ var mongoload = require('./mongoload');
 
 module.exports = function() {
   return function(req, res, next) {
-    console.log("routing url " + req.url);
+    console.log('routing url ' + req.url);
     if(req.method === 'GET') {
       mongoload.getAll(function(err, result) {
         if(err) {
